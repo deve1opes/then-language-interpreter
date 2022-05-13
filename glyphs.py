@@ -97,9 +97,9 @@ def glyphsTrans(dee=[], *args):
         elif dee[x] == "ั":
             dee[x] = "y"
         elif dee[x] == "า":
-            dee[x] = ""
-        elif dee[x] == "ำ":
             dee[x] = "k"
+        elif dee[x] == "ำ":
+            dee[x] = "e"
         elif dee[x] == "ิ":
             dee[x] = "b"
         elif dee[x] == "ี":
