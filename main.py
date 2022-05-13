@@ -1,15 +1,15 @@
 from glyphs import *
-x = "กิ่งดาว ภูมิคอนสาร น่ารัก"
-dee = list(x)
-print(dee)
-glyphsTrans(dee)
 
+inputName = input("Input name:")
+listedName = list(inputName)
+print(listedName)
+glyphsTrans(listedName)
+print(listedName)
 
-print(dee)
-print("We're here")
-print(ord("ื"))
+# Monitor len keyword behavior
+print(len(listedName))
 
 # This section is to joining the list
 s = ''
-joined = s.join(dee)
+joined = s.join(listedName)
 print(joined)
