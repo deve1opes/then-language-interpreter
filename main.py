@@ -13,3 +13,4 @@ print(len(listedName))
 s = ''
 joined = s.join(listedName)
 print(joined)
+print("Test VCS on Kingdow PC")
